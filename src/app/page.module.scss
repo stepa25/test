@@ -1,0 +1,25 @@
+.content {
+    .container {
+        max-width: 1290px;
+        margin: 0 auto;
+    }
+}
+
+.notFound {
+    margin: 0 auto;
+    height: 680px;
+    width: 820px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    h2 { 
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}

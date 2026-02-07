@@ -1,0 +1,27 @@
+.headerCart {
+    display: flex;
+    padding: 15px 22px;
+    border-radius: 30px;
+    background: #FE5F1E;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+
+    .delimiter {
+        width: 1px;
+        height: 25px;
+        background: rgba(255, 255, 255, 0.25);
+        margin: 0 auto;
+    }
+
+    .cart {
+        margin-right: 5px;
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 16px;
+    }
+}

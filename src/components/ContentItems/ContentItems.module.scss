@@ -1,0 +1,16 @@
+.contentItems {
+    padding-bottom: 100px;
+
+    .title {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 35px 0;
+    }
+
+    .items {
+        display: flex;
+        gap: 56px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

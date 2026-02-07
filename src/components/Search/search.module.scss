@@ -1,0 +1,14 @@
+.root {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    width: 400px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    left: -120px;
+    position: relative;
+
+    &:focus {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}

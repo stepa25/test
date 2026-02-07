@@ -1,0 +1,98 @@
+.content {
+
+    height: 980px;
+
+    .container {
+        width: 820px;
+        margin: 150px auto;
+        
+        .cartBottom {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .blockFirst {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .total {
+                    font-size: 22px;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+
+                .titlePrice {
+                    font-size: 22px;
+
+                    span {
+                        color: #FE5F1E;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .blockSecond {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .btn1 {
+                    display: flex;
+                    gap: 12px;
+                    padding: 20px 35px;
+                    border-radius: 30px;
+                    background-color: #ffff;
+                    border: 1px solid #D3D3D3;
+                    font-size: 16px;
+                    color: #CACACA;
+                    align-items: center;
+                    cursor: pointer;
+                }
+
+                .btn2 {
+                    display: flex;
+                    gap: 12px;
+                    padding: 20px 35px;
+                    border-radius: 30px;
+                    background-color: #FE5F1E;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    align-items: center;
+                    cursor: pointer;
+                    border: none;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .cartItems{
+            margin-top: 40px;
+        }
+
+        .cartTop {
+            display: flex;
+            justify-content: space-between;
+
+            &__left { 
+                font-size: 32px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            }
+
+            &__right {
+                font-size: 16px;
+                color: #B6B6B6;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+            }
+        }
+    }
+}
